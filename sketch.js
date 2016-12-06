@@ -1,7 +1,7 @@
 var value = 0;
 function draw() {
   fill(value);
-  rect(25, 25, 50, 50);
+  rect(25, 25, 150, 150);
 }
 function deviceShaken() {
   value = value + 5;
