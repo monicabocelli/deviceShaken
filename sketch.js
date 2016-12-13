@@ -9,12 +9,7 @@ function deviceShaken() {
     value = 0;
   }
 }
-function deviceMoved() {
-  value = value + 5;
-  if (value > 255) {
-    value = 0;
-  }
-}
+/*
 function deviceTurned() {
   if (value == 0){
     value = 255
@@ -22,3 +17,4 @@ function deviceTurned() {
     value = 0;
   }
 }
+*/
